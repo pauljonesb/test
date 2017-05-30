@@ -9,6 +9,10 @@ body {
   border-bottom: 1px solid #466995;
   overflow-y: auto;
   width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
 }
 
 ul {
@@ -76,24 +80,25 @@ p {
   background-color: #DBE9EE;
   box-sizing: border-box;
   padding: 40px;
-  position: fixed;
+  position: relative;
   left: 0;
-  top: 80px;
+  top: 85px;
   text-align: center;
   width: 100%;
-  z-index: 999;
+  z-index: 1;
 }
 
 .question {
-  margin: 120px auto;
+  margin: 100px auto;
   position: static;
   text-align: center;
   position: relative;
+  
 }
 
-div.question{
-  top:240px;
-}
+/*div.question{
+  top:100px;
+}*/
 
 .answer {
   border: 1px solid #466995;

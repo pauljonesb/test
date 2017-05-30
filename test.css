@@ -36,3 +36,9 @@ font-family: Roboto, serif;
 border-style: ridge;
 border-color: red;
 }
+table{
+border: 2px solid black;
+}
+.column{
+text-align: center;
+}
